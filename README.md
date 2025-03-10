@@ -53,9 +53,9 @@ Create a `.env` file in the root directory with the following content:
 
 Make sure not to commit/push this file to GitHub!
 
-#### Important: Add `.env` to `.gitignore`
+#### Important: Add `.env` and `node_modules` to `.gitignore`
 
-To avoid accidentally exposing sensitive data, create a `.gitignore` file and add the `.env` file to your `.gitignore`. This ensures the environment file won’t be tracked by Git or pushed to a public repository.
+To avoid accidentally exposing sensitive data, create a `.gitignore` file and add the `.env` file to your `.gitignore`. This ensures the environment file won’t be tracked by Git or pushed to a public repository. Adding `node_modules` to the gitignore will keep the repo small and prevent errors when trying to `npm install`
 
 ### Option 1: Simple (Single File-ish)
 
