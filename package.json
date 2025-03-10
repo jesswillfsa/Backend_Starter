@@ -1,0 +1,24 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "Backend Starter Repo for Capstone projects that do not use Prisma",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesswillfsa/Backend_Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesswillfsa/Backend_Starter/issues"
+  },
+  "homepage": "https://github.com/jesswillfsa/Backend_Starter#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
